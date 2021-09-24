@@ -10,6 +10,5 @@ age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 print("Your age is " + str(age) + "; that`s a good time to start programming!")
 print("Now I will prove to you that I can count any number you want.")
 counting_number = int(input())
-for a in range(0, counting_number + 1):
+for a in range(1, counting_number + 1):
     print(str(a) + " !")
-print("Completed, have a nice day!")
